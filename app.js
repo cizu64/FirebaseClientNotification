@@ -21,3 +21,7 @@
   console.log('Permission denied', err);
 });
 
+
+messaging.onMessage(function(payload){
+console.log('onMessage: ',payload);
+});
